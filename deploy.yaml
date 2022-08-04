@@ -6,7 +6,7 @@ metadata:
   name: hello-server
 spec:
   containers:
-  - image: ko://github.com/ericsmalling/ko-demo/hello
+  - image: ko://github.com/ericsmalling/ko-demo
     name: hello-server
     resources: {}
   dnsPolicy: ClusterFirst
